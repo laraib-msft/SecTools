@@ -1,0 +1,282 @@
+2022/08/23 - 13:16:26.619	4	Main.cpp	wmain	167	[.] [1;36mStarting[0m.
+2022/08/23 - 13:16:26.651	5	Main.cpp	wmain	171	[.] Output directory is 'C:\temp'.
+2022/08/23 - 13:16:26.651	5	XML.cpp	XmlReadConfigFile	100	[.] Read config file.
+2022/08/23 - 13:16:26.666	4	Main.cpp	wmain	212	[.] Using Resource Schema.
+2022/08/23 - 13:16:26.682	5	XML.cpp	XmlReadSchemaFile	326	[.] Read schema file.
+2022/08/23 - 13:16:27.526	5	Engine.cpp	pLocateDc	558	[.] DC Locator: DC: \\DC1.corp.contoso.com (flags 0xe003f1fd), Domain: corp.contoso.com, Forest: corp.contoso.com
+2022/08/23 - 13:16:27.760	5	LDAP.cpp	pLdapOpenConnection	1387	[+] [1;32mSuccessfully bind to DC1.corp.contoso.com[0m.
+2022/08/23 - 13:16:27.776	4	LDAP.cpp	LdapProcessRequest	426	[.] Dumping 'corp.contoso.com/configuration/(null)/top'.
+2022/08/23 - 13:16:27.822	5	LDAP.cpp	pLdapOpenConnection	1387	[+] [1;32mSuccessfully bind to DC1.corp.contoso.com[0m.
+2022/08/23 - 13:16:29.776	4	LDAP.cpp	LdapProcessRequest	1245	   [+] [1;32mFinished[0m: elapsed time: 2 seconds, 1881 objects.
+2022/08/23 - 13:16:29.776	4	LDAP.cpp	LdapProcessRequest	426	[.] Dumping 'corp.contoso.com/schema/(null)/top'.
+2022/08/23 - 13:16:29.822	5	LDAP.cpp	pLdapOpenConnection	1387	[+] [1;32mSuccessfully bind to DC1.corp.contoso.com[0m.
+2022/08/23 - 13:16:33.182	4	LDAP.cpp	LdapProcessRequest	1245	   [+] [1;32mFinished[0m: elapsed time: 3 seconds, 1787 objects.
+2022/08/23 - 13:16:33.182	4	LDAP.cpp	LdapProcessRequest	426	[.] Dumping 'corp.contoso.com/forestdns/(null)/top'.
+2022/08/23 - 13:16:33.307	5	LDAP.cpp	pLdapOpenConnection	1387	[+] [1;32mSuccessfully bind to DC1.corp.contoso.com[0m.
+2022/08/23 - 13:16:33.369	4	LDAP.cpp	LdapProcessRequest	1245	   [+] [1;32mFinished[0m: elapsed time: 0 second, 20 objects.
+2022/08/23 - 13:16:33.369	4	LDAP.cpp	LdapProcessRequest	426	[.] Dumping 'corp.contoso.com/schema/(null)/class'.
+2022/08/23 - 13:16:33.432	5	LDAP.cpp	pLdapOpenConnection	1387	[+] [1;32mSuccessfully bind to DC1.corp.contoso.com[0m.
+2022/08/23 - 13:16:33.947	4	LDAP.cpp	LdapProcessRequest	1245	   [+] [1;32mFinished[0m: elapsed time: 0 second, 273 objects.
+2022/08/23 - 13:16:34.182	4	LDAP.cpp	LdapProcessRequest	426	[.] Dumping 'corp.contoso.com/schema/(null)/attribute'.
+2022/08/23 - 13:16:34.494	5	LDAP.cpp	pLdapOpenConnection	1387	[+] [1;32mSuccessfully bind to DC1.corp.contoso.com[0m.
+2022/08/23 - 13:16:38.279	4	LDAP.cpp	LdapProcessRequest	1245	   [+] [1;32mFinished[0m: elapsed time: 4 seconds, 1512 objects.
+2022/08/23 - 13:16:39.033	4	LDAP.cpp	LdapProcessRequest	426	[.] Dumping 'corp.contoso.com/configuration/(null)/group'.
+2022/08/23 - 13:16:43.189	5	LDAP.cpp	pLdapOpenConnection	1387	[+] [1;32mSuccessfully bind to DC1.corp.contoso.com[0m.
+2022/08/23 - 13:16:43.489	4	LDAP.cpp	LdapProcessRequest	1245	   [+] [1;32mFinished[0m: elapsed time: 4 seconds, 0 object.
+2022/08/23 - 13:16:43.567	4	LDAP.cpp	LdapProcessRequest	426	[.] Dumping 'corp.contoso.com/configuration/(null)/serviceConnectionPoint'.
+2022/08/23 - 13:16:45.930	5	LDAP.cpp	pLdapOpenConnection	1387	[+] [1;32mSuccessfully bind to DC1.corp.contoso.com[0m.
+2022/08/23 - 13:16:46.172	4	LDAP.cpp	LdapProcessRequest	1245	   [+] [1;32mFinished[0m: elapsed time: 2 seconds, 1 object.
+2022/08/23 - 13:16:46.175	4	LDAP.cpp	LdapProcessRequest	426	[.] Dumping 'corp.contoso.com/configuration/(null)/controlAccessRight'.
+2022/08/23 - 13:16:46.739	5	LDAP.cpp	pLdapOpenConnection	1387	[+] [1;32mSuccessfully bind to DC1.corp.contoso.com[0m.
+2022/08/23 - 13:16:47.409	4	LDAP.cpp	LdapProcessRequest	1245	   [+] [1;32mFinished[0m: elapsed time: 1 second, 81 objects.
+2022/08/23 - 13:16:47.412	4	LDAP.cpp	LdapProcessRequest	426	[.] Dumping 'corp.contoso.com/configuration/(null)/foreignSecurityPrincipal'.
+2022/08/23 - 13:16:48.468	5	LDAP.cpp	pLdapOpenConnection	1387	[+] [1;32mSuccessfully bind to DC1.corp.contoso.com[0m.
+2022/08/23 - 13:16:48.630	4	LDAP.cpp	LdapProcessRequest	1245	   [+] [1;32mFinished[0m: elapsed time: 1 second, 33 objects.
+2022/08/23 - 13:16:48.632	4	LDAP.cpp	LdapProcessRequest	426	[.] Dumping 'corp.contoso.com/configuration/(null)/site'.
+2022/08/23 - 13:16:49.195	5	LDAP.cpp	pLdapOpenConnection	1387	[+] [1;32mSuccessfully bind to DC1.corp.contoso.com[0m.
+2022/08/23 - 13:16:49.256	4	LDAP.cpp	LdapProcessRequest	1245	   [+] [1;32mFinished[0m: elapsed time: 0 second, 1 object.
+2022/08/23 - 13:16:49.258	4	LDAP.cpp	LdapProcessRequest	426	[.] Dumping 'corp.contoso.com/configuration/(null)/siteLink'.
+2022/08/23 - 13:16:49.502	5	LDAP.cpp	pLdapOpenConnection	1387	[+] [1;32mSuccessfully bind to DC1.corp.contoso.com[0m.
+2022/08/23 - 13:16:49.533	4	LDAP.cpp	LdapProcessRequest	1245	   [+] [1;32mFinished[0m: elapsed time: 0 second, 1 object.
+2022/08/23 - 13:16:49.539	4	LDAP.cpp	LdapProcessRequest	426	[.] Dumping 'corp.contoso.com/configuration/(null)/subnet'.
+2022/08/23 - 13:16:50.271	5	LDAP.cpp	pLdapOpenConnection	1387	[+] [1;32mSuccessfully bind to DC1.corp.contoso.com[0m.
+2022/08/23 - 13:16:50.581	4	LDAP.cpp	LdapProcessRequest	1245	   [+] [1;32mFinished[0m: elapsed time: 1 second, 0 object.
+2022/08/23 - 13:16:50.583	4	LDAP.cpp	LdapProcessRequest	426	[.] Dumping 'corp.contoso.com/configuration/(null)/server'.
+2022/08/23 - 13:16:50.969	5	LDAP.cpp	pLdapOpenConnection	1387	[+] [1;32mSuccessfully bind to DC1.corp.contoso.com[0m.
+2022/08/23 - 13:16:51.217	4	LDAP.cpp	LdapProcessRequest	1245	   [+] [1;32mFinished[0m: elapsed time: 0 second, 1 object.
+2022/08/23 - 13:16:51.309	4	LDAP.cpp	LdapProcessRequest	426	[.] Dumping 'corp.contoso.com/configuration/(null)/nTDSDSA'.
+2022/08/23 - 13:16:51.580	5	LDAP.cpp	pLdapOpenConnection	1387	[+] [1;32mSuccessfully bind to DC1.corp.contoso.com[0m.
+2022/08/23 - 13:16:51.987	4	LDAP.cpp	LdapProcessRequest	1245	   [+] [1;32mFinished[0m: elapsed time: 0 second, 1 object.
+2022/08/23 - 13:16:52.044	4	LDAP.cpp	LdapProcessRequest	426	[.] Dumping 'corp.contoso.com/configuration/(null)/nTDSConnection'.
+2022/08/23 - 13:16:52.227	5	LDAP.cpp	pLdapOpenConnection	1387	[+] [1;32mSuccessfully bind to DC1.corp.contoso.com[0m.
+2022/08/23 - 13:16:52.332	4	LDAP.cpp	LdapProcessRequest	1245	   [+] [1;32mFinished[0m: elapsed time: 0 second, 0 object.
+2022/08/23 - 13:16:52.334	4	LDAP.cpp	LdapProcessRequest	426	[.] Dumping 'corp.contoso.com/configuration/(null)/certificationauthority'.
+2022/08/23 - 13:16:52.469	5	LDAP.cpp	pLdapOpenConnection	1387	[+] [1;32mSuccessfully bind to DC1.corp.contoso.com[0m.
+2022/08/23 - 13:16:52.628	4	LDAP.cpp	LdapProcessRequest	1245	   [+] [1;32mFinished[0m: elapsed time: 0 second, 3 objects.
+2022/08/23 - 13:16:52.629	4	LDAP.cpp	LdapProcessRequest	426	[.] Dumping 'corp.contoso.com/configuration/(null)/authNPolicy'.
+2022/08/23 - 13:16:52.694	5	LDAP.cpp	pLdapOpenConnection	1387	[+] [1;32mSuccessfully bind to DC1.corp.contoso.com[0m.
+2022/08/23 - 13:16:52.757	4	LDAP.cpp	LdapProcessRequest	1245	   [+] [1;32mFinished[0m: elapsed time: 0 second, 0 object.
+2022/08/23 - 13:16:53.019	4	LDAP.cpp	LdapProcessRequest	426	[.] Dumping 'corp.contoso.com/configuration/(null)/authNPolicySilo'.
+2022/08/23 - 13:16:53.181	5	LDAP.cpp	pLdapOpenConnection	1387	[+] [1;32mSuccessfully bind to DC1.corp.contoso.com[0m.
+2022/08/23 - 13:16:53.200	4	LDAP.cpp	LdapProcessRequest	1245	   [+] [1;32mFinished[0m: elapsed time: 0 second, 0 object.
+2022/08/23 - 13:16:53.202	4	LDAP.cpp	LdapProcessRequest	426	[.] Dumping 'corp.contoso.com/configuration/(null)/crossRefContainer'.
+2022/08/23 - 13:16:53.304	5	LDAP.cpp	pLdapOpenConnection	1387	[+] [1;32mSuccessfully bind to DC1.corp.contoso.com[0m.
+2022/08/23 - 13:16:53.344	4	LDAP.cpp	LdapProcessRequest	1245	   [+] [1;32mFinished[0m: elapsed time: 0 second, 1 object.
+2022/08/23 - 13:16:53.346	4	LDAP.cpp	LdapProcessRequest	426	[.] Dumping 'corp.contoso.com/configuration/(null)/crossRef'.
+2022/08/23 - 13:16:53.493	5	LDAP.cpp	pLdapOpenConnection	1387	[+] [1;32mSuccessfully bind to DC1.corp.contoso.com[0m.
+2022/08/23 - 13:16:53.578	4	LDAP.cpp	LdapProcessRequest	1245	   [+] [1;32mFinished[0m: elapsed time: 0 second, 5 objects.
+2022/08/23 - 13:16:53.579	4	LDAP.cpp	LdapProcessRequest	426	[.] Dumping 'corp.contoso.com/configuration/(null)/nTDSService'.
+2022/08/23 - 13:16:53.722	5	LDAP.cpp	pLdapOpenConnection	1387	[+] [1;32mSuccessfully bind to DC1.corp.contoso.com[0m.
+2022/08/23 - 13:16:53.760	4	LDAP.cpp	LdapProcessRequest	1245	   [+] [1;32mFinished[0m: elapsed time: 0 second, 1 object.
+2022/08/23 - 13:16:53.786	4	LDAP.cpp	LdapProcessRequest	426	[.] Dumping 'corp.contoso.com/configuration/(null)/msDS-ShadowPrincipal'.
+2022/08/23 - 13:16:53.893	5	LDAP.cpp	pLdapOpenConnection	1387	[+] [1;32mSuccessfully bind to DC1.corp.contoso.com[0m.
+2022/08/23 - 13:16:53.994	4	LDAP.cpp	LdapProcessRequest	1245	   [+] [1;32mFinished[0m: elapsed time: 0 second, 0 object.
+2022/08/23 - 13:16:53.995	4	LDAP.cpp	LdapProcessRequest	426	[.] Dumping 'corp.contoso.com/configuration/(null)/displaySpecifier'.
+2022/08/23 - 13:16:54.081	5	LDAP.cpp	pLdapOpenConnection	1387	[+] [1;32mSuccessfully bind to DC1.corp.contoso.com[0m.
+2022/08/23 - 13:16:54.280	4	LDAP.cpp	LdapProcessRequest	1245	   [+] [1;32mFinished[0m: elapsed time: 0 second, 1430 objects.
+2022/08/23 - 13:16:54.280	4	LDAP.cpp	LdapProcessRequest	426	[.] Dumping 'corp.contoso.com/forestdns/(null)/dnsZone'.
+2022/08/23 - 13:16:54.329	5	LDAP.cpp	pLdapOpenConnection	1387	[+] [1;32mSuccessfully bind to DC1.corp.contoso.com[0m.
+2022/08/23 - 13:16:54.362	4	LDAP.cpp	LdapProcessRequest	1245	   [+] [1;32mFinished[0m: elapsed time: 0 second, 2 objects.
+2022/08/23 - 13:16:54.362	4	LDAP.cpp	LdapProcessRequest	426	[.] Dumping 'corp.contoso.com/forestdns/(null)/dnsNode'.
+2022/08/23 - 13:16:54.416	5	LDAP.cpp	pLdapOpenConnection	1387	[+] [1;32mSuccessfully bind to DC1.corp.contoso.com[0m.
+2022/08/23 - 13:16:54.451	4	LDAP.cpp	LdapProcessRequest	1245	   [+] [1;32mFinished[0m: elapsed time: 0 second, 12 objects.
+2022/08/23 - 13:16:54.459	4	LDAP.cpp	LdapProcessRequest	426	[.] Dumping 'corp.contoso.com/configuration/(null)/pKICertificateTemplate'.
+2022/08/23 - 13:16:54.545	5	LDAP.cpp	pLdapOpenConnection	1387	[+] [1;32mSuccessfully bind to DC1.corp.contoso.com[0m.
+2022/08/23 - 13:16:54.561	4	LDAP.cpp	LdapProcessRequest	1245	   [+] [1;32mFinished[0m: elapsed time: 0 second, 33 objects.
+2022/08/23 - 13:16:54.562	4	LDAP.cpp	LdapProcessRequest	426	[.] Dumping 'corp.contoso.com/configuration/(null)/pKIEnrollmentService'.
+2022/08/23 - 13:16:54.624	5	LDAP.cpp	pLdapOpenConnection	1387	[+] [1;32mSuccessfully bind to DC1.corp.contoso.com[0m.
+2022/08/23 - 13:16:54.631	4	LDAP.cpp	LdapProcessRequest	1245	   [+] [1;32mFinished[0m: elapsed time: 0 second, 1 object.
+2022/08/23 - 13:16:54.632	4	LDAP.cpp	LdapProcessRequest	426	[.] Dumping 'corp.contoso.com/configuration/(null)/exchange_organization'.
+2022/08/23 - 13:16:54.671	5	LDAP.cpp	pLdapOpenConnection	1387	[+] [1;32mSuccessfully bind to DC1.corp.contoso.com[0m.
+2022/08/23 - 13:16:54.678	4	LDAP.cpp	LdapProcessRequest	1245	   [+] [1;32mFinished[0m: elapsed time: 0 second, 0 object.
+2022/08/23 - 13:16:54.678	4	LDAP.cpp	LdapProcessRequest	426	[.] Dumping 'corp.contoso.com/configuration/(null)/exchange_conf_adminauditlog'.
+2022/08/23 - 13:16:54.806	5	LDAP.cpp	pLdapOpenConnection	1387	[+] [1;32mSuccessfully bind to DC1.corp.contoso.com[0m.
+2022/08/23 - 13:16:54.834	4	LDAP.cpp	LdapProcessRequest	1245	   [+] [1;32mFinished[0m: elapsed time: 0 second, 0 object.
+2022/08/23 - 13:16:54.835	4	LDAP.cpp	LdapProcessRequest	426	[.] Dumping 'corp.contoso.com/configuration/(null)/exchange_admin_group'.
+2022/08/23 - 13:16:55.365	5	LDAP.cpp	pLdapOpenConnection	1387	[+] [1;32mSuccessfully bind to DC1.corp.contoso.com[0m.
+2022/08/23 - 13:16:55.383	4	LDAP.cpp	LdapProcessRequest	1245	   [+] [1;32mFinished[0m: elapsed time: 0 second, 0 object.
+2022/08/23 - 13:16:55.390	4	LDAP.cpp	LdapProcessRequest	426	[.] Dumping 'corp.contoso.com/configuration/(null)/exchange_mrs_request'.
+2022/08/23 - 13:16:55.536	5	LDAP.cpp	pLdapOpenConnection	1387	[+] [1;32mSuccessfully bind to DC1.corp.contoso.com[0m.
+2022/08/23 - 13:16:55.554	4	LDAP.cpp	LdapProcessRequest	1245	   [+] [1;32mFinished[0m: elapsed time: 0 second, 0 object.
+2022/08/23 - 13:16:55.555	4	LDAP.cpp	LdapProcessRequest	426	[.] Dumping 'corp.contoso.com/configuration/(null)/exchange_role'.
+2022/08/23 - 13:16:55.647	5	LDAP.cpp	pLdapOpenConnection	1387	[+] [1;32mSuccessfully bind to DC1.corp.contoso.com[0m.
+2022/08/23 - 13:16:55.659	4	LDAP.cpp	LdapProcessRequest	1245	   [+] [1;32mFinished[0m: elapsed time: 0 second, 0 object.
+2022/08/23 - 13:16:55.662	4	LDAP.cpp	LdapProcessRequest	426	[.] Dumping 'corp.contoso.com/configuration/(null)/exchange_role_assignment'.
+2022/08/23 - 13:16:55.802	5	LDAP.cpp	pLdapOpenConnection	1387	[+] [1;32mSuccessfully bind to DC1.corp.contoso.com[0m.
+2022/08/23 - 13:16:55.939	4	LDAP.cpp	LdapProcessRequest	1245	   [+] [1;32mFinished[0m: elapsed time: 0 second, 0 object.
+2022/08/23 - 13:16:55.940	4	LDAP.cpp	LdapProcessRequest	426	[.] Dumping 'corp.contoso.com/configuration/(null)/exchange_rbac_policy'.
+2022/08/23 - 13:16:56.111	5	LDAP.cpp	pLdapOpenConnection	1387	[+] [1;32mSuccessfully bind to DC1.corp.contoso.com[0m.
+2022/08/23 - 13:16:56.205	4	LDAP.cpp	LdapProcessRequest	1245	   [+] [1;32mFinished[0m: elapsed time: 0 second, 0 object.
+2022/08/23 - 13:16:56.211	4	LDAP.cpp	LdapProcessRequest	426	[.] Dumping 'corp.contoso.com/configuration/(null)/exchange_rbac_scope'.
+2022/08/23 - 13:16:56.350	5	LDAP.cpp	pLdapOpenConnection	1387	[+] [1;32mSuccessfully bind to DC1.corp.contoso.com[0m.
+2022/08/23 - 13:16:56.401	4	LDAP.cpp	LdapProcessRequest	1245	   [+] [1;32mFinished[0m: elapsed time: 0 second, 0 object.
+2022/08/23 - 13:16:56.407	4	LDAP.cpp	LdapProcessRequest	426	[.] Dumping 'corp.contoso.com/configuration/(null)/exchange_server'.
+2022/08/23 - 13:16:56.464	5	LDAP.cpp	pLdapOpenConnection	1387	[+] [1;32mSuccessfully bind to DC1.corp.contoso.com[0m.
+2022/08/23 - 13:16:56.535	4	LDAP.cpp	LdapProcessRequest	1245	   [+] [1;32mFinished[0m: elapsed time: 0 second, 0 object.
+2022/08/23 - 13:16:56.537	4	LDAP.cpp	LdapProcessRequest	426	[.] Dumping 'corp.contoso.com/configuration/(null)/exchange_mdb'.
+2022/08/23 - 13:16:56.803	5	LDAP.cpp	pLdapOpenConnection	1387	[+] [1;32mSuccessfully bind to DC1.corp.contoso.com[0m.
+2022/08/23 - 13:16:56.851	4	LDAP.cpp	LdapProcessRequest	1245	   [+] [1;32mFinished[0m: elapsed time: 0 second, 0 object.
+2022/08/23 - 13:16:56.853	4	LDAP.cpp	LdapProcessRequest	426	[.] Dumping 'corp.contoso.com/configuration/(null)/exchange_mdb_copy'.
+2022/08/23 - 13:16:57.340	5	LDAP.cpp	pLdapOpenConnection	1387	[+] [1;32mSuccessfully bind to DC1.corp.contoso.com[0m.
+2022/08/23 - 13:16:57.437	4	LDAP.cpp	LdapProcessRequest	1245	   [+] [1;32mFinished[0m: elapsed time: 0 second, 0 object.
+2022/08/23 - 13:16:57.438	4	LDAP.cpp	LdapProcessRequest	426	[.] Dumping 'corp.contoso.com/configuration/(null)/exchange_rule_transport'.
+2022/08/23 - 13:16:57.545	5	LDAP.cpp	pLdapOpenConnection	1387	[+] [1;32mSuccessfully bind to DC1.corp.contoso.com[0m.
+2022/08/23 - 13:16:57.561	4	LDAP.cpp	LdapProcessRequest	1245	   [+] [1;32mFinished[0m: elapsed time: 0 second, 0 object.
+2022/08/23 - 13:16:57.562	4	LDAP.cpp	LdapProcessRequest	426	[.] Dumping 'corp.contoso.com/configuration/(null)/exchange_rule_device_access'.
+2022/08/23 - 13:16:57.601	5	LDAP.cpp	pLdapOpenConnection	1387	[+] [1;32mSuccessfully bind to DC1.corp.contoso.com[0m.
+2022/08/23 - 13:16:57.646	4	LDAP.cpp	LdapProcessRequest	1245	   [+] [1;32mFinished[0m: elapsed time: 0 second, 0 object.
+2022/08/23 - 13:16:57.647	4	LDAP.cpp	LdapProcessRequest	426	[.] Dumping 'corp.contoso.com/configuration/(null)/exchange_smtp_in'.
+2022/08/23 - 13:16:57.700	5	LDAP.cpp	pLdapOpenConnection	1387	[+] [1;32mSuccessfully bind to DC1.corp.contoso.com[0m.
+2022/08/23 - 13:16:57.752	4	LDAP.cpp	LdapProcessRequest	1245	   [+] [1;32mFinished[0m: elapsed time: 0 second, 0 object.
+2022/08/23 - 13:16:57.753	4	LDAP.cpp	LdapProcessRequest	426	[.] Dumping 'corp.contoso.com/configuration/(null)/exchange_smtp_out'.
+2022/08/23 - 13:16:57.835	5	LDAP.cpp	pLdapOpenConnection	1387	[+] [1;32mSuccessfully bind to DC1.corp.contoso.com[0m.
+2022/08/23 - 13:16:57.934	4	LDAP.cpp	LdapProcessRequest	1245	   [+] [1;32mFinished[0m: elapsed time: 0 second, 0 object.
+2022/08/23 - 13:16:58.014	4	LDAP.cpp	LdapProcessRequest	426	[.] Dumping 'corp.contoso.com/configuration/(null)/exchange_proto_virtual_directory'.
+2022/08/23 - 13:16:58.117	5	LDAP.cpp	pLdapOpenConnection	1387	[+] [1;32mSuccessfully bind to DC1.corp.contoso.com[0m.
+2022/08/23 - 13:16:58.126	4	LDAP.cpp	LdapProcessRequest	1245	   [+] [1;32mFinished[0m: elapsed time: 0 second, 0 object.
+2022/08/23 - 13:16:58.129	4	LDAP.cpp	LdapProcessRequest	426	[.] Dumping 'corp.contoso.com/configuration/(null)/exchange_proto_smtp'.
+2022/08/23 - 13:16:58.166	5	LDAP.cpp	pLdapOpenConnection	1387	[+] [1;32mSuccessfully bind to DC1.corp.contoso.com[0m.
+2022/08/23 - 13:16:58.181	4	LDAP.cpp	LdapProcessRequest	1245	   [+] [1;32mFinished[0m: elapsed time: 0 second, 0 object.
+2022/08/23 - 13:16:58.181	4	LDAP.cpp	LdapProcessRequest	426	[.] Dumping 'corp.contoso.com/configuration/(null)/exchange_proto_pop'.
+2022/08/23 - 13:16:58.228	5	LDAP.cpp	pLdapOpenConnection	1387	[+] [1;32mSuccessfully bind to DC1.corp.contoso.com[0m.
+2022/08/23 - 13:16:58.228	4	LDAP.cpp	LdapProcessRequest	1245	   [+] [1;32mFinished[0m: elapsed time: 0 second, 0 object.
+2022/08/23 - 13:16:58.228	4	LDAP.cpp	LdapProcessRequest	426	[.] Dumping 'corp.contoso.com/configuration/(null)/exchange_proto_imap'.
+2022/08/23 - 13:16:58.259	5	LDAP.cpp	pLdapOpenConnection	1387	[+] [1;32mSuccessfully bind to DC1.corp.contoso.com[0m.
+2022/08/23 - 13:16:58.275	4	LDAP.cpp	LdapProcessRequest	1245	   [+] [1;32mFinished[0m: elapsed time: 0 second, 0 object.
+2022/08/23 - 13:16:58.275	4	LDAP.cpp	LdapProcessRequest	426	[.] Dumping 'corp.contoso.com/configuration/(null)/exchange_policy_system'.
+2022/08/23 - 13:16:58.306	5	LDAP.cpp	pLdapOpenConnection	1387	[+] [1;32mSuccessfully bind to DC1.corp.contoso.com[0m.
+2022/08/23 - 13:16:58.306	4	LDAP.cpp	LdapProcessRequest	1245	   [+] [1;32mFinished[0m: elapsed time: 0 second, 0 object.
+2022/08/23 - 13:16:58.306	4	LDAP.cpp	LdapProcessRequest	426	[.] Dumping 'corp.contoso.com/configuration/(null)/exchange_policy_recipient'.
+2022/08/23 - 13:16:58.353	5	LDAP.cpp	pLdapOpenConnection	1387	[+] [1;32mSuccessfully bind to DC1.corp.contoso.com[0m.
+2022/08/23 - 13:16:58.384	4	LDAP.cpp	LdapProcessRequest	1245	   [+] [1;32mFinished[0m: elapsed time: 0 second, 0 object.
+2022/08/23 - 13:16:58.384	4	LDAP.cpp	LdapProcessRequest	426	[.] Dumping 'corp.contoso.com/configuration/(null)/exchange_policy_mobile'.
+2022/08/23 - 13:16:58.447	5	LDAP.cpp	pLdapOpenConnection	1387	[+] [1;32mSuccessfully bind to DC1.corp.contoso.com[0m.
+2022/08/23 - 13:16:58.462	4	LDAP.cpp	LdapProcessRequest	1245	   [+] [1;32mFinished[0m: elapsed time: 0 second, 0 object.
+2022/08/23 - 13:16:58.462	4	LDAP.cpp	LdapProcessRequest	426	[.] Dumping 'corp.contoso.com/configuration/(null)/exchange_policy_owa'.
+2022/08/23 - 13:16:58.509	5	LDAP.cpp	pLdapOpenConnection	1387	[+] [1;32mSuccessfully bind to DC1.corp.contoso.com[0m.
+2022/08/23 - 13:16:58.509	4	LDAP.cpp	LdapProcessRequest	1245	   [+] [1;32mFinished[0m: elapsed time: 0 second, 0 object.
+2022/08/23 - 13:16:58.556	4	Engine.cpp	Process	416	[.] Find 1 domains in forest.
+2022/08/23 - 13:16:58.556	4	Engine.cpp	Process	427	[.] Domain in forest: corp.contoso.com (Attribute: 0 / Type: 2)
+2022/08/23 - 13:16:58.556	5	Engine.cpp	pLocateDc	558	[.] DC Locator: DC: \\DC1.corp.contoso.com (flags 0xe003f1fd), Domain: corp.contoso.com, Forest: corp.contoso.com
+2022/08/23 - 13:16:58.556	4	Engine.cpp	Process	441	[.] Processing domain in forest: corp.contoso.com
+2022/08/23 - 13:16:58.592	5	LDAP.cpp	pLdapOpenConnection	1387	[+] [1;32mSuccessfully bind to DC1.corp.contoso.com[0m.
+2022/08/23 - 13:16:58.592	4	LDAP.cpp	LdapProcessRequest	426	[.] Dumping 'corp.contoso.com/domain/corp.contoso.com/rootDSE'.
+2022/08/23 - 13:16:58.685	5	LDAP.cpp	pLdapOpenConnection	1387	[+] [1;32mSuccessfully bind to DC1.corp.contoso.com[0m.
+2022/08/23 - 13:16:58.739	4	LDAP.cpp	LdapProcessRequest	1245	   [+] [1;32mFinished[0m: elapsed time: 0 second, 1 object.
+2022/08/23 - 13:16:58.740	4	LDAP.cpp	LdapProcessRequest	426	[.] Dumping 'corp.contoso.com/domain/corp.contoso.com/top'.
+2022/08/23 - 13:16:58.827	5	LDAP.cpp	pLdapOpenConnection	1387	[+] [1;32mSuccessfully bind to DC1.corp.contoso.com[0m.
+2022/08/23 - 13:17:18.548	4	LDAP.cpp	LdapProcessRequest	1245	   [+] [1;32mFinished[0m: elapsed time: 19 seconds, 319 objects.
+2022/08/23 - 13:17:18.580	4	LDAP.cpp	LdapProcessRequest	426	[.] Dumping 'corp.contoso.com/domaindns/corp.contoso.com/top'.
+2022/08/23 - 13:17:18.791	5	LDAP.cpp	pLdapOpenConnection	1387	[+] [1;32mSuccessfully bind to DC1.corp.contoso.com[0m.
+2022/08/23 - 13:17:19.807	4	LDAP.cpp	LdapProcessRequest	1245	   [+] [1;32mFinished[0m: elapsed time: 1 second, 60 objects.
+2022/08/23 - 13:17:19.823	4	LDAP.cpp	LdapProcessRequest	426	[.] Dumping 'corp.contoso.com/domain/corp.contoso.com/root'.
+2022/08/23 - 13:17:19.879	5	LDAP.cpp	pLdapOpenConnection	1387	[+] [1;32mSuccessfully bind to DC1.corp.contoso.com[0m.
+2022/08/23 - 13:17:20.162	4	LDAP.cpp	LdapProcessRequest	1245	   [+] [1;32mFinished[0m: elapsed time: 0 second, 1 object.
+2022/08/23 - 13:17:20.177	4	LDAP.cpp	LdapProcessRequest	426	[.] Dumping 'corp.contoso.com/domain/corp.contoso.com/foreignSecurityPrincipal'.
+2022/08/23 - 13:17:20.306	5	LDAP.cpp	pLdapOpenConnection	1387	[+] [1;32mSuccessfully bind to DC1.corp.contoso.com[0m.
+2022/08/23 - 13:17:20.405	4	LDAP.cpp	LdapProcessRequest	1245	   [+] [1;32mFinished[0m: elapsed time: 0 second, 4 objects.
+2022/08/23 - 13:17:20.450	4	LDAP.cpp	LdapProcessRequest	426	[.] Dumping 'corp.contoso.com/domain/corp.contoso.com/user'.
+2022/08/23 - 13:17:20.561	5	LDAP.cpp	pLdapOpenConnection	1387	[+] [1;32mSuccessfully bind to DC1.corp.contoso.com[0m.
+2022/08/23 - 13:17:22.189	4	LDAP.cpp	LdapProcessRequest	1245	   [+] [1;32mFinished[0m: elapsed time: 1 second, 23 objects.
+2022/08/23 - 13:17:22.193	4	LDAP.cpp	LdapProcessRequest	426	[.] Dumping 'corp.contoso.com/domain/corp.contoso.com/computer'.
+2022/08/23 - 13:17:22.287	5	LDAP.cpp	pLdapOpenConnection	1387	[+] [1;32mSuccessfully bind to DC1.corp.contoso.com[0m.
+2022/08/23 - 13:17:23.054	4	LDAP.cpp	LdapProcessRequest	1245	   [+] [1;32mFinished[0m: elapsed time: 0 second, 13 objects.
+2022/08/23 - 13:17:23.106	4	LDAP.cpp	LdapProcessRequest	426	[.] Dumping 'corp.contoso.com/domain/corp.contoso.com/trustedDomain'.
+2022/08/23 - 13:17:23.361	5	LDAP.cpp	pLdapOpenConnection	1387	[+] [1;32mSuccessfully bind to DC1.corp.contoso.com[0m.
+2022/08/23 - 13:17:23.430	4	LDAP.cpp	LdapProcessRequest	1245	   [+] [1;32mFinished[0m: elapsed time: 0 second, 0 object.
+2022/08/23 - 13:17:23.484	4	LDAP.cpp	LdapProcessRequest	426	[.] Dumping 'corp.contoso.com/domain/corp.contoso.com/smsa'.
+2022/08/23 - 13:17:23.588	5	LDAP.cpp	pLdapOpenConnection	1387	[+] [1;32mSuccessfully bind to DC1.corp.contoso.com[0m.
+2022/08/23 - 13:17:23.651	4	LDAP.cpp	LdapProcessRequest	1245	   [+] [1;32mFinished[0m: elapsed time: 0 second, 0 object.
+2022/08/23 - 13:17:23.744	4	LDAP.cpp	LdapProcessRequest	426	[.] Dumping 'corp.contoso.com/domain/corp.contoso.com/gmsa'.
+2022/08/23 - 13:17:23.889	5	LDAP.cpp	pLdapOpenConnection	1387	[+] [1;32mSuccessfully bind to DC1.corp.contoso.com[0m.
+2022/08/23 - 13:17:24.029	4	LDAP.cpp	LdapProcessRequest	1245	   [+] [1;32mFinished[0m: elapsed time: 0 second, 1 object.
+2022/08/23 - 13:17:24.031	4	LDAP.cpp	LdapProcessRequest	426	[.] Dumping 'corp.contoso.com/domain/corp.contoso.com/group'.
+2022/08/23 - 13:17:24.111	5	LDAP.cpp	pLdapOpenConnection	1387	[+] [1;32mSuccessfully bind to DC1.corp.contoso.com[0m.
+2022/08/23 - 13:17:30.731	4	LDAP.cpp	LdapProcessRequest	1245	   [+] [1;32mFinished[0m: elapsed time: 6 seconds, 53 objects.
+2022/08/23 - 13:17:30.880	4	LDAP.cpp	LdapProcessRequest	426	[.] Dumping 'corp.contoso.com/domain/corp.contoso.com/ou'.
+2022/08/23 - 13:17:31.037	5	LDAP.cpp	pLdapOpenConnection	1387	[+] [1;32mSuccessfully bind to DC1.corp.contoso.com[0m.
+2022/08/23 - 13:17:31.063	4	LDAP.cpp	LdapProcessRequest	1245	   [+] [1;32mFinished[0m: elapsed time: 0 second, 8 objects.
+2022/08/23 - 13:17:31.065	4	LDAP.cpp	LdapProcessRequest	426	[.] Dumping 'corp.contoso.com/domain/corp.contoso.com/gpo'.
+2022/08/23 - 13:17:31.109	5	LDAP.cpp	pLdapOpenConnection	1387	[+] [1;32mSuccessfully bind to DC1.corp.contoso.com[0m.
+2022/08/23 - 13:17:31.131	4	LDAP.cpp	LdapProcessRequest	1245	   [+] [1;32mFinished[0m: elapsed time: 0 second, 4 objects.
+2022/08/23 - 13:17:31.132	4	LDAP.cpp	LdapProcessRequest	426	[.] Dumping 'corp.contoso.com/domain/corp.contoso.com/msWMI-Som'.
+2022/08/23 - 13:17:31.369	5	LDAP.cpp	pLdapOpenConnection	1387	[+] [1;32mSuccessfully bind to DC1.corp.contoso.com[0m.
+2022/08/23 - 13:17:31.426	4	LDAP.cpp	LdapProcessRequest	1245	   [+] [1;32mFinished[0m: elapsed time: 0 second, 0 object.
+2022/08/23 - 13:17:31.442	4	LDAP.cpp	LdapProcessRequest	426	[.] Dumping 'corp.contoso.com/domain/corp.contoso.com/packageRegistration'.
+2022/08/23 - 13:17:31.528	5	LDAP.cpp	pLdapOpenConnection	1387	[+] [1;32mSuccessfully bind to DC1.corp.contoso.com[0m.
+2022/08/23 - 13:17:31.617	4	LDAP.cpp	LdapProcessRequest	1245	   [+] [1;32mFinished[0m: elapsed time: 0 second, 0 object.
+2022/08/23 - 13:17:31.628	4	LDAP.cpp	LdapProcessRequest	426	[.] Dumping 'corp.contoso.com/domain/corp.contoso.com/passwordSettings'.
+2022/08/23 - 13:17:31.878	5	LDAP.cpp	pLdapOpenConnection	1387	[+] [1;32mSuccessfully bind to DC1.corp.contoso.com[0m.
+2022/08/23 - 13:17:32.131	4	LDAP.cpp	LdapProcessRequest	1245	   [+] [1;32mFinished[0m: elapsed time: 0 second, 0 object.
+2022/08/23 - 13:17:32.133	4	LDAP.cpp	LdapProcessRequest	426	[.] Dumping 'corp.contoso.com/domain/corp.contoso.com/rIDManager'.
+2022/08/23 - 13:17:32.228	5	LDAP.cpp	pLdapOpenConnection	1387	[+] [1;32mSuccessfully bind to DC1.corp.contoso.com[0m.
+2022/08/23 - 13:17:32.465	4	LDAP.cpp	LdapProcessRequest	1245	   [+] [1;32mFinished[0m: elapsed time: 0 second, 1 object.
+2022/08/23 - 13:17:32.669	4	LDAP.cpp	LdapProcessRequest	426	[.] Dumping 'corp.contoso.com/domain/corp.contoso.com/infrastructureUpdate'.
+2022/08/23 - 13:17:33.527	5	LDAP.cpp	pLdapOpenConnection	1387	[+] [1;32mSuccessfully bind to DC1.corp.contoso.com[0m.
+2022/08/23 - 13:17:33.660	4	LDAP.cpp	LdapProcessRequest	1245	   [+] [1;32mFinished[0m: elapsed time: 0 second, 1 object.
+2022/08/23 - 13:17:33.661	4	LDAP.cpp	LdapProcessRequest	426	[.] Dumping 'corp.contoso.com/domain/corp.contoso.com/msDFSR-LocalSettings'.
+2022/08/23 - 13:17:33.980	5	LDAP.cpp	pLdapOpenConnection	1387	[+] [1;32mSuccessfully bind to DC1.corp.contoso.com[0m.
+2022/08/23 - 13:17:34.301	4	LDAP.cpp	LdapProcessRequest	1245	   [+] [1;32mFinished[0m: elapsed time: 0 second, 1 object.
+2022/08/23 - 13:17:34.498	4	LDAP.cpp	LdapProcessRequest	426	[.] Dumping 'corp.contoso.com/domain/corp.contoso.com/msDFSR-Subscriber'.
+2022/08/23 - 13:17:35.288	5	LDAP.cpp	pLdapOpenConnection	1387	[+] [1;32mSuccessfully bind to DC1.corp.contoso.com[0m.
+2022/08/23 - 13:17:35.631	4	LDAP.cpp	LdapProcessRequest	1245	   [+] [1;32mFinished[0m: elapsed time: 1 second, 1 object.
+2022/08/23 - 13:17:35.770	4	LDAP.cpp	LdapProcessRequest	426	[.] Dumping 'corp.contoso.com/domain/corp.contoso.com/msDFSR-Subscription'.
+2022/08/23 - 13:17:36.155	5	LDAP.cpp	pLdapOpenConnection	1387	[+] [1;32mSuccessfully bind to DC1.corp.contoso.com[0m.
+2022/08/23 - 13:17:36.186	4	LDAP.cpp	LdapProcessRequest	1245	   [+] [1;32mFinished[0m: elapsed time: 0 second, 1 object.
+2022/08/23 - 13:17:36.208	4	LDAP.cpp	LdapProcessRequest	426	[.] Dumping 'corp.contoso.com/domain/corp.contoso.com/nTFRSSubscriptions'.
+2022/08/23 - 13:17:36.356	5	LDAP.cpp	pLdapOpenConnection	1387	[+] [1;32mSuccessfully bind to DC1.corp.contoso.com[0m.
+2022/08/23 - 13:17:36.413	4	LDAP.cpp	LdapProcessRequest	1245	   [+] [1;32mFinished[0m: elapsed time: 0 second, 0 object.
+2022/08/23 - 13:17:36.419	4	LDAP.cpp	LdapProcessRequest	426	[.] Dumping 'corp.contoso.com/domain/corp.contoso.com/nTFRSSubscriber'.
+2022/08/23 - 13:17:36.677	5	LDAP.cpp	pLdapOpenConnection	1387	[+] [1;32mSuccessfully bind to DC1.corp.contoso.com[0m.
+2022/08/23 - 13:17:36.761	4	LDAP.cpp	LdapProcessRequest	1245	   [+] [1;32mFinished[0m: elapsed time: 0 second, 0 object.
+2022/08/23 - 13:17:36.763	4	LDAP.cpp	LdapProcessRequest	426	[.] Dumping 'corp.contoso.com/domain/corp.contoso.com/fTDfs'.
+2022/08/23 - 13:17:36.995	5	LDAP.cpp	pLdapOpenConnection	1387	[+] [1;32mSuccessfully bind to DC1.corp.contoso.com[0m.
+2022/08/23 - 13:17:37.131	4	LDAP.cpp	LdapProcessRequest	1245	   [+] [1;32mFinished[0m: elapsed time: 0 second, 0 object.
+2022/08/23 - 13:17:37.132	4	LDAP.cpp	LdapProcessRequest	426	[.] Dumping 'corp.contoso.com/domain/corp.contoso.com/msDFS-NamespaceAnchor'.
+2022/08/23 - 13:17:37.267	5	LDAP.cpp	pLdapOpenConnection	1387	[+] [1;32mSuccessfully bind to DC1.corp.contoso.com[0m.
+2022/08/23 - 13:17:37.275	4	LDAP.cpp	LdapProcessRequest	1245	   [+] [1;32mFinished[0m: elapsed time: 0 second, 0 object.
+2022/08/23 - 13:17:37.278	4	LDAP.cpp	LdapProcessRequest	426	[.] Dumping 'corp.contoso.com/domain/corp.contoso.com/msDFS-Namespacev2'.
+2022/08/23 - 13:17:37.417	5	LDAP.cpp	pLdapOpenConnection	1387	[+] [1;32mSuccessfully bind to DC1.corp.contoso.com[0m.
+2022/08/23 - 13:17:37.434	4	LDAP.cpp	LdapProcessRequest	1245	   [+] [1;32mFinished[0m: elapsed time: 0 second, 0 object.
+2022/08/23 - 13:17:37.439	4	LDAP.cpp	LdapProcessRequest	426	[.] Dumping 'corp.contoso.com/domain/corp.contoso.com/msDFSR-GlobalSettings'.
+2022/08/23 - 13:17:37.575	5	LDAP.cpp	pLdapOpenConnection	1387	[+] [1;32mSuccessfully bind to DC1.corp.contoso.com[0m.
+2022/08/23 - 13:17:37.605	4	LDAP.cpp	LdapProcessRequest	1245	   [+] [1;32mFinished[0m: elapsed time: 0 second, 1 object.
+2022/08/23 - 13:17:37.608	4	LDAP.cpp	LdapProcessRequest	426	[.] Dumping 'corp.contoso.com/domain/corp.contoso.com/msDFSR-ReplicationGroup'.
+2022/08/23 - 13:17:37.743	5	LDAP.cpp	pLdapOpenConnection	1387	[+] [1;32mSuccessfully bind to DC1.corp.contoso.com[0m.
+2022/08/23 - 13:17:37.755	4	LDAP.cpp	LdapProcessRequest	1245	   [+] [1;32mFinished[0m: elapsed time: 0 second, 1 object.
+2022/08/23 - 13:17:37.769	4	LDAP.cpp	LdapProcessRequest	426	[.] Dumping 'corp.contoso.com/domain/corp.contoso.com/msDFSR-Content'.
+2022/08/23 - 13:17:37.894	5	LDAP.cpp	pLdapOpenConnection	1387	[+] [1;32mSuccessfully bind to DC1.corp.contoso.com[0m.
+2022/08/23 - 13:17:37.994	4	LDAP.cpp	LdapProcessRequest	1245	   [+] [1;32mFinished[0m: elapsed time: 0 second, 1 object.
+2022/08/23 - 13:17:38.000	4	LDAP.cpp	LdapProcessRequest	426	[.] Dumping 'corp.contoso.com/domain/corp.contoso.com/msDFSR-ContentSet'.
+2022/08/23 - 13:17:38.568	5	LDAP.cpp	pLdapOpenConnection	1387	[+] [1;32mSuccessfully bind to DC1.corp.contoso.com[0m.
+2022/08/23 - 13:17:38.679	4	LDAP.cpp	LdapProcessRequest	1245	   [+] [1;32mFinished[0m: elapsed time: 0 second, 1 object.
+2022/08/23 - 13:17:38.864	4	LDAP.cpp	LdapProcessRequest	426	[.] Dumping 'corp.contoso.com/domain/corp.contoso.com/msDFSR-Connection'.
+2022/08/23 - 13:17:39.143	5	LDAP.cpp	pLdapOpenConnection	1387	[+] [1;32mSuccessfully bind to DC1.corp.contoso.com[0m.
+2022/08/23 - 13:17:39.236	4	LDAP.cpp	LdapProcessRequest	1245	   [+] [1;32mFinished[0m: elapsed time: 0 second, 0 object.
+2022/08/23 - 13:17:39.238	4	LDAP.cpp	LdapProcessRequest	426	[.] Dumping 'corp.contoso.com/domain/corp.contoso.com/msDFSR-Topology'.
+2022/08/23 - 13:17:39.385	5	LDAP.cpp	pLdapOpenConnection	1387	[+] [1;32mSuccessfully bind to DC1.corp.contoso.com[0m.
+2022/08/23 - 13:17:39.465	4	LDAP.cpp	LdapProcessRequest	1245	   [+] [1;32mFinished[0m: elapsed time: 0 second, 1 object.
+2022/08/23 - 13:17:39.468	4	LDAP.cpp	LdapProcessRequest	426	[.] Dumping 'corp.contoso.com/domain/corp.contoso.com/msDFSR-Member'.
+2022/08/23 - 13:17:41.550	5	LDAP.cpp	pLdapOpenConnection	1387	[+] [1;32mSuccessfully bind to DC1.corp.contoso.com[0m.
+2022/08/23 - 13:17:42.301	4	LDAP.cpp	LdapProcessRequest	1245	   [+] [1;32mFinished[0m: elapsed time: 2 seconds, 1 object.
+2022/08/23 - 13:17:42.675	4	LDAP.cpp	LdapProcessRequest	426	[.] Dumping 'corp.contoso.com/domain/corp.contoso.com/nTFRSReplicaSet'.
+2022/08/23 - 13:17:43.097	5	LDAP.cpp	pLdapOpenConnection	1387	[+] [1;32mSuccessfully bind to DC1.corp.contoso.com[0m.
+2022/08/23 - 13:17:43.304	4	LDAP.cpp	LdapProcessRequest	1245	   [+] [1;32mFinished[0m: elapsed time: 0 second, 0 object.
+2022/08/23 - 13:17:43.373	4	LDAP.cpp	LdapProcessRequest	426	[.] Dumping 'corp.contoso.com/domain/corp.contoso.com/nTFRSMember'.
+2022/08/23 - 13:17:43.672	5	LDAP.cpp	pLdapOpenConnection	1387	[+] [1;32mSuccessfully bind to DC1.corp.contoso.com[0m.
+2022/08/23 - 13:17:43.780	4	LDAP.cpp	LdapProcessRequest	1245	   [+] [1;32mFinished[0m: elapsed time: 0 second, 0 object.
+2022/08/23 - 13:17:43.786	4	LDAP.cpp	LdapProcessRequest	426	[.] Dumping 'corp.contoso.com/domain/corp.contoso.com/serviceConnectionPoint'.
+2022/08/23 - 13:17:44.030	5	LDAP.cpp	pLdapOpenConnection	1387	[+] [1;32mSuccessfully bind to DC1.corp.contoso.com[0m.
+2022/08/23 - 13:17:44.263	4	LDAP.cpp	LdapProcessRequest	1245	   [+] [1;32mFinished[0m: elapsed time: 0 second, 16 objects.
+2022/08/23 - 13:17:44.269	4	LDAP.cpp	LdapProcessRequest	426	[.] Dumping 'corp.contoso.com/domaindns/corp.contoso.com/dnsZone'.
+2022/08/23 - 13:17:44.518	5	LDAP.cpp	pLdapOpenConnection	1387	[+] [1;32mSuccessfully bind to DC1.corp.contoso.com[0m.
+2022/08/23 - 13:17:45.017	4	LDAP.cpp	LdapProcessRequest	1245	   [+] [1;32mFinished[0m: elapsed time: 0 second, 6 objects.
+2022/08/23 - 13:17:45.238	4	LDAP.cpp	LdapProcessRequest	426	[.] Dumping 'corp.contoso.com/domaindns/corp.contoso.com/dnsNode'.
+2022/08/23 - 13:17:45.992	5	LDAP.cpp	pLdapOpenConnection	1387	[+] [1;32mSuccessfully bind to DC1.corp.contoso.com[0m.
+2022/08/23 - 13:17:46.117	4	LDAP.cpp	LdapProcessRequest	1245	   [+] [1;32mFinished[0m: elapsed time: 0 second, 48 objects.
+2022/08/23 - 13:17:46.272	4	LDAP.cpp	LdapProcessRequest	426	[.] Dumping 'corp.contoso.com/domain/corp.contoso.com/userProxy'.
+2022/08/23 - 13:17:46.727	5	LDAP.cpp	pLdapOpenConnection	1387	[+] [1;32mSuccessfully bind to DC1.corp.contoso.com[0m.
+2022/08/23 - 13:17:46.837	4	LDAP.cpp	LdapProcessRequest	1245	   [+] [1;32mFinished[0m: elapsed time: 0 second, 0 object.
+2022/08/23 - 13:17:46.837	4	Sysvol.cpp	ProcessSysvol	114	[.] Processing sysvol: '\\DC1.corp.contoso.com\SYSVOL'
+2022/08/23 - 13:19:46.270	4	Engine.cpp	Process	462	[.] [1;36mWrite table info.[0m
+2022/08/23 - 13:19:46.285	4	Main.cpp	wmain	264	[.] [1;36mEnd.[0m
